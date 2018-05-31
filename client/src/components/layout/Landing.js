@@ -20,9 +20,15 @@ class Landing extends Component {
                 <h1 className="display-3 mb-4">FocusNetwork</h1>
                 <p className="lead">
                   {" "}
-                  Create a profile/portfolio, share posts and get help from
-                  other focused friends
+                  Energy flows where your focus goes. Join people from around
+                  the world with a focused mindset who want to achieve their
+                  goals and make the world a better place.
                 </p>
+                <p>
+                  Create a profile/portfolio, share posts and get help from
+                  other focused friends{" "}
+                </p>
+
                 <hr />
                 <Link to="/register" className="btn btn-lg btn-info mr-2">
                   Sign Up
