@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
-import PropTypes from "prop-types";
+import { PropTypes } from "prop-types";
 import { connect } from "react-redux";
 
 class Landing extends Component {
@@ -21,7 +21,7 @@ class Landing extends Component {
                 <p className="lead">
                   {" "}
                   Create a profile/portfolio, share posts and get help from
-                  other focused friends!
+                  other focused friends
                 </p>
                 <hr />
                 <Link to="/register" className="btn btn-lg btn-info mr-2">
